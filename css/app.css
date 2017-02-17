@@ -1,0 +1,62 @@
+body {
+  background: #f6f6f6;
+  color: #222;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 4em;
+  margin: 2em 1em 1em 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2em;
+  margin: 0;
+}
+
+.dont {
+  font-weight: 600;
+}
+
+.heading-secondary {
+  font-size: .6em;
+  font-weight: 300;
+  color: #666;
+  display: block;
+  text-transform: none;
+}
+
+.tile {
+  list-style-type: none;
+}
+.tile a {
+  border: 2px solid black;
+  padding: 1em;
+  display: block;
+  min-height: 8em;
+  text-decoration: none;
+  color: inherit;
+  transition: 80ms;
+}
+.tile p {
+  color: #666;
+}
+.tile p span {
+  color: #222;
+  display: block;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1em;
+}
+.tile a:hover {
+  background: #222;
+}
+.tile a:hover p {
+  color: #ccc;
+}
+.tile a:hover p span {
+  color: #f6f6f6;
+}
