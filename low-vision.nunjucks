@@ -1,0 +1,134 @@
+{% extends "_layout.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <h1>
+    <span class="heading-secondary">
+      Design for users with </span>
+      Low vision
+  </h1>
+</div>
+<div class="full-width quote">
+  <div class="container">
+
+  </div>
+</div>
+<div class="container">
+
+  <div class="card-row">
+    <div class="card">
+
+      <h2 class="heading-meta">Do</h2>
+
+      <p>
+        Use good contrasts and a readable font size
+      </p>
+
+    </div>
+    <div class="card">
+
+      <h2 class="heading-meta dont">Don't</h2>
+
+      <p class="dont">
+        Use low colour contrasts and small font size
+      </p>
+
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="card-row">
+    <div class="card">
+
+      <h2 class="heading-meta">Do</h2>
+
+      <p>
+        Publish all information on web pages (HTML)
+      </p>
+
+    </div>
+    <div class="card">
+
+      <h2 class="heading-meta dont">Don't</h2>
+
+      <p class="dont">
+        Bury information in downloads
+      </p>
+
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="card-row">
+    <div class="card">
+
+      <h2 class="heading-meta">Do</h2>
+
+      <p>
+        Use a combination of colour, shapes and text
+      </p>
+
+    </div>
+    <div class="card">
+
+      <h2 class="heading-meta dont">Don't</h2>
+
+      <p class="dont">
+        Only use colour to convey meaning
+      </p>
+
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="card-row">
+    <div class="card">
+
+      <h2 class="heading-meta">Do</h2>
+
+      <p>
+        Follow a linear, logical layout and ensure text flows and is visible when text is magnified to 200%
+      </p>
+
+    </div>
+    <div class="card">
+
+      <h2 class="heading-meta dont">Don't</h2>
+
+      <p class="dont">
+        Spread content all over a page and force user to scroll horizontally when text is magnified to 200%
+      </p>
+
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="card-row">
+      <div class="card">
+
+        <h2 class="heading-meta">Do</h2>
+
+        <p>
+          Put buttons and notifications in context
+        </p>
+
+      </div>
+      <div class="card">
+
+        <h2 class="heading-meta dont">Don't</h2>
+
+        <p class="dont">
+          Separate actions from their context
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+
+{% endblock %}

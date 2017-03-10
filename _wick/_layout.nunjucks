@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "_includes/head.nunjucks" %}
+
+<body>
+
+  {% block content %}{% endblock %}
+
+  {% include "_includes/nav.nunjucks" %}
+
+</body>
+</html>

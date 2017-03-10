@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "_layout.nunjucks" %}
 
-<head>
-  <meta charset="utf-8">
-  <title>Design for inclusion</title>
-  <meta name="description" content="A side-project for not only general guidelines and best practices, but also to try and design the most inclusive website.">
-  <meta name="author" content="Charles RT">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="main.css">
-</head>
-
-
-<body>
-
-  
+{% block content %}
 
 <div class="container">
   <h1>
@@ -149,60 +136,4 @@
 
   </div>
 
-
-
-  <nav class="full-width">
-  <div class="container">
-    <ul>
-      <div class="card-row">
-        <li class="card tile">
-          <a href="autistic-spectrum.html">
-            <span class="heading-secondary">Design for users on the </span>
-              Autistic spectrum
-          </a>
-        </li>
-        <li class="card tile">
-          <a href="screen-readers.html">
-            <span class="heading-secondary">Design for users of </span>
-              Screen readers
-          </a>
-        </li>
-        <li class="card tile">
-          <a href="low-vision.html">
-            <span class="heading-secondary">Design for users with </span>
-              Low vision
-          </a>
-        </li>
-      </div>
-      <div class="card-row">
-        <li class="card tile">
-          <a href="physical-or-motor-disabilities.html">
-            <span class="heading-secondary">Design for users with </span>
-              Physical or motor disabilities
-          </a>
-        </li>
-        <li class="card tile">
-          <a href="d-deaf-or-hard-of-hearing.html">
-            <span class="heading-secondary">Design for users who are </span>
-              D/deaf or hard of hearing
-          </a>
-        </li>
-        <li class="card tile">
-          <a href="dyslexia.html">
-            <span class="heading-secondary">Design for users with </span>
-              Dyslexia
-          </a>
-        </li>
-      </div>
-    </ul>
-    <footer>
-      <p>
-      Thanks to <a href="https://twitter.com/krwpn?lang=en">@krwpn</a> &mdash; the creator of the <a href="https://github.com/UKHomeOffice/posters">original access needs posters</a>.
-      </p>
-    </footer>
-  </div>
-</nav>
-
-
-</body>
-</html>
+{% endblock %}

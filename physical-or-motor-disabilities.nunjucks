@@ -1,0 +1,134 @@
+{% extends "_layout.nunjucks" %}
+
+{% block content %}
+
+<div class="container">
+  <h1>
+    <span class="heading-secondary">
+      Design for users with </span>
+      Physical or motor disabilities
+  </h1>
+</div>
+<div class="full-width quote">
+  <div class="container">
+
+  </div>
+</div>
+<div class="container">
+
+  <div class="card-row">
+    <div class="card">
+
+      <h2 class="heading-meta">Do</h2>
+
+      <p>
+        Make large clickable actions
+      </p>
+
+    </div>
+    <div class="card">
+
+      <h2 class="heading-meta dont">Don't</h2>
+
+      <p class="dont">
+        Demand precision
+      </p>
+
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="card-row">
+    <div class="card">
+
+      <h2 class="heading-meta">Do</h2>
+
+      <p>
+        Give form fields space
+      </p>
+
+    </div>
+    <div class="card">
+
+      <h2 class="heading-meta dont">Don't</h2>
+
+      <p class="dont">
+        Bunch interactions together
+      </p>
+
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="card-row">
+    <div class="card">
+
+      <h2 class="heading-meta">Do</h2>
+
+      <p>
+        Design for keyboard or speech only use
+      </p>
+
+    </div>
+    <div class="card">
+
+      <h2 class="heading-meta dont">Don't</h2>
+
+      <p class="dont">
+        Make dynamic content that requires a lot of mouse movement
+      </p>
+
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="card-row">
+    <div class="card">
+
+      <h2 class="heading-meta">Do</h2>
+
+      <p>
+        Design with mobile and touch screen in mind
+      </p>
+
+    </div>
+    <div class="card">
+
+      <h2 class="heading-meta dont">Don't</h2>
+
+      <p class="dont">
+        Have short time out windows
+      </p>
+
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="card-row">
+      <div class="card">
+
+        <h2 class="heading-meta">Do</h2>
+
+        <p>
+          Provide shortcuts
+        </p>
+
+      </div>
+      <div class="card">
+
+        <h2 class="heading-meta dont">Don't</h2>
+
+        <p class="dont">
+          Tire users with lots of typing and scrolling
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+
+{% endblock %}
