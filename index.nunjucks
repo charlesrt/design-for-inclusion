@@ -1,9 +1,0 @@
-{% extends "_layout.nunjucks" %}
-
-{% block content %}
-
-<div class="container">
-  <h1><span class="heading-secondary">Dos and don'ts on </span>Designing for inclusion</h1>
-</div>
-
-{% endblock %}
